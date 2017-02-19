@@ -211,12 +211,12 @@ class SumsInterfaceController: WKInterfaceController {
     
     override func awake(withContext context: Any?) {
         
-        if let context = context as? String {
+        if let type = context as? String {
             
             questionType = type
-            
-            startQuiz(questionType: type)
-            
+        
+            startQuiz(type)
+        
         } else {
             
             pushController(withName: "InterfaceController", context: nil)
