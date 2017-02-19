@@ -20,6 +20,7 @@
 		508E0ADB1E5902100006F1D7 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508E0ADA1E5902100006F1D7 /* ExtensionDelegate.swift */; };
 		508E0ADD1E5902100006F1D7 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508E0ADC1E5902100006F1D7 /* NotificationController.swift */; };
 		508E0ADF1E5902100006F1D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 508E0ADE1E5902100006F1D7 /* Assets.xcassets */; };
+		508E0AEF1E590AD30006F1D7 /* SumsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508E0AEE1E590AD30006F1D7 /* SumsInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		508E0ADC1E5902100006F1D7 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		508E0ADE1E5902100006F1D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		508E0AE01E5902100006F1D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		508E0AEE1E590AD30006F1D7 /* SumsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumsInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				508E0AD81E5902100006F1D7 /* InterfaceController.swift */,
+				508E0AEE1E590AD30006F1D7 /* SumsInterfaceController.swift */,
 				508E0ADA1E5902100006F1D7 /* ExtensionDelegate.swift */,
 				508E0ADC1E5902100006F1D7 /* NotificationController.swift */,
 				508E0ADE1E5902100006F1D7 /* Assets.xcassets */,
@@ -315,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				508E0ADD1E5902100006F1D7 /* NotificationController.swift in Sources */,
+				508E0AEF1E590AD30006F1D7 /* SumsInterfaceController.swift in Sources */,
 				508E0ADB1E5902100006F1D7 /* ExtensionDelegate.swift in Sources */,
 				508E0AD91E5902100006F1D7 /* InterfaceController.swift in Sources */,
 			);

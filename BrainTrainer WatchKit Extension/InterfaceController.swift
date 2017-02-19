@@ -11,21 +11,51 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
+    
+    func segue(type: String) {
+        
+        pushController(withName: "SumsInterfaceController", context: type)
+        
+    }
+    
+    
+    @IBAction func plus() {
+        
+        segue(type: "plus")
+    }
+    
+    @IBAction func minus() {
+        
+        segue(type: "minus")
+    }
+    
+    @IBAction func multiply() {
+        
+        segue(type: "multiply")
+    }
+    
+    @IBAction func divide() {
+        
+        segue(type: "divide")
+    }
+    
 
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
-        // Configure interface objects here.
+        
     }
     
     override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
         super.willActivate()
+        
+        
     }
     
     override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
         super.didDeactivate()
+        
+        
     }
 
 }
