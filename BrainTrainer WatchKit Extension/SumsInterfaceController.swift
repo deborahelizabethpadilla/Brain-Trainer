@@ -68,7 +68,7 @@ class SumsInterfaceController: WKInterfaceController {
     
     var questionType = ""
     
-    func startQuiz() {
+    func startQuiz(questionType:String) {
         
         timer.setDate(NSDate(timeIntervalSinceNow: 30) as Date)
         
@@ -215,7 +215,7 @@ class SumsInterfaceController: WKInterfaceController {
             
             questionType = type
         
-            startQuiz(type)
+            startQuiz(questionType: type)
         
         } else {
             
