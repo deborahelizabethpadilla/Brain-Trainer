@@ -59,6 +59,12 @@
                         <label width="1" height="99" alignment="left" hidden="YES" textAlignment="center" numberOfLines="0" id="bTz-HC-fPL">
                             <fontDescription key="font" type="system" pointSize="21"/>
                         </label>
+                        <button width="1" alignment="left" hidden="YES" title="Play Again" id="ps1-Az-WtV">
+                            <color key="backgroundColor" red="0.20728094629999999" green="0.91832932690000002" blue="0.13299650299999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="AgC-eL-Hgc" kind="push" id="PLo-OX-htS"/>
+                            </connections>
+                        </button>
                         <timer alignment="center" id="vac-61-AXS">
                             <calendarUnit key="units" minute="YES" second="YES"/>
                         </timer>
@@ -99,18 +105,29 @@
                         </group>
                         <label alignment="center" textAlignment="center" id="N6R-17-txT"/>
                     </items>
+                    <menu key="menu" id="KSg-30-i4A">
+                        <items>
+                            <menuItem title="Stop" icon="trash" id="NwR-kG-9bR">
+                                <connections>
+                                    <action selector="stopButton" destination="D8a-L9-khX" id="aMm-49-vRB"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
                     <connections>
                         <outlet property="ans1" destination="qIT-pa-HgI" id="onB-NT-cMm"/>
                         <outlet property="ans2" destination="GhZ-jA-FSx" id="Xrw-i4-puK"/>
                         <outlet property="ans3" destination="h3g-sa-hng" id="J99-Sr-aiU"/>
                         <outlet property="ans4" destination="uNz-2i-FWV" id="jrX-8Z-bdF"/>
+                        <outlet property="answerCorrectLabel" destination="N6R-17-txT" id="Zc5-29-9Co"/>
+                        <outlet property="playAgain" destination="ps1-Az-WtV" id="cTR-nM-IUe"/>
                         <outlet property="resultsLabel" destination="bTz-HC-fPL" id="HWW-9m-Jkw"/>
                         <outlet property="sumLabel" destination="ilV-6g-fh8" id="LEh-4y-54l"/>
                         <outlet property="timer" destination="vac-61-AXS" id="vWX-xc-ykr"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="468" y="384"/>
+            <point key="canvasLocation" x="459" y="345"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
